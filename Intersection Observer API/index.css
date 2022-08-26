@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  margin-bottom: 25px;
+  border: 1px solid rgb(193, 193, 193);
+  padding: 10px;
+  align-items: center;
+}
+
+.image {
+  color: white;
+  height: 250px;
+  width: 250px;
+  background-color: orange;
+  transform: translateX(-150px);
+  overflow: hidden;
+  opacity: 0;
+
+}
+
+.text {
+  font-size: 50px;
+  margin-left: 25px;
+  transform: scale(0.5);
+  opacity: 0;
+}
+
+.container.active .text {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.container.active .image {
+  transform: translateX(0);
+}
+
+#cat_image {
+  color: white;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
