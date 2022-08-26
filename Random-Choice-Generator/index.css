@@ -1,0 +1,67 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  font-size: 22px;
+}
+
+.random-choice-generator-main-panel {
+  width: fit-content;
+  height: fit-content;
+  background-color: #dfecfa;
+  border: 1px dashed #999;
+  border-radius: 15px;
+  margin-left: 180px;
+  margin-right: 180px;
+  padding-left: 15px;
+}
+
+.generate-random-choices-tittle {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.types-of-choicens-div {
+  display: flex;
+}
+
+.select-box {
+  width: 250px;
+  height: 30px;
+  margin-top: 20px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.button-div {
+  padding-top: 20px;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  font-size: large;
+  color: white;
+  height: 40px;
+}
+
+.btn-random-choice {
+  background-color: rgb(220, 106, 0);
+  width: 150px;
+}
+
+.btn-reset-choice {
+  background-color: rgb(162, 0, 0);
+  width: 80px;
+  margin-left:30px;
+}
+
+.result-div{
+  margin-bottom: 40px;
+}
+
+textarea{
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}

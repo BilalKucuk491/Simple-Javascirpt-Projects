@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Choice Generator</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="/Thumbnails/r.png">
+</head>
+
+<body>
+
+  <div class="random-choice-generator-main-panel">
+
+    <p class="generate-random-choices-tittle">Generate Random Choices</p>
+
+    <p>Paste or type out all the items that you want to choose from
+      in the box below and then click the <b> Random Choice </b> button. The randomly generated
+      item from the list will appear just below the text box.</p>
+
+      <div class="types-of-choicens-div">
+        <p>Your items are:</p>
+        <form action=""></form>
+        <select id="select-box" class="select-box">
+          <option value="0" selected="selected">on separete lines.</option>
+          <option value="1" >separeted by commas.</option>
+          <option value="2">separeted by semi-colons.</option>
+          <option value="3" >separeted a blank space</option>
+        </select>
+      </div>
+
+      <textarea id="interaction-textarea" cols="112" rows="10"></textarea>
+
+      <div class="button-div">
+        <button id="btn-random-choice" class="btn-random-choice">Random Choice</button>
+        <button id="btn-reset-choice" class="btn-reset-choice">Reset</button>
+      </div>
+
+
+      <div class="result-div">
+        <p><b>Your Random Choice Generator Selection</b></p>
+        <textarea id="result-textarea" cols="112" rows="2"></textarea>
+      </div>
+
+  </div>
+  <script src="/index.js"></script>
+
+</body>
+
+
+</html>
